@@ -6,18 +6,8 @@
     align-items: center;
 }
 
-.logoContainer {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    font-size: 24px;
-    font-weight: bold;
-    color: tomato;
-}
-
 .logo {
-    width: 60px;
-    border-radius: 20px;
+    height: 60px;
 }
 
 .navbarMenu {
@@ -55,7 +45,7 @@
     font-weight: bold;
 }
 
-.navbar li{
+.navbar li {
     cursor: pointer;
 }
 
@@ -63,7 +53,7 @@
     position: relative;
 }
 
-.dot{
+.dot {
     position: absolute;
     min-width: 10px;
     min-height: 10px;
@@ -71,4 +61,27 @@
     border-radius: 5px;
     top: -8px;
     right: -8px;
+}
+
+@media (max-width : 1050px) {
+    .navbar .logo {
+        width: 140px;
+    }
+
+    .navbarMenu {
+        gap: 20px;
+        font-size: 17px;
+    }
+
+    .navbarRight {
+        gap: 30px;
+    }
+
+    .navbarRight img {
+        width: 22px;
+    }
+
+    .navbarRight button {
+        padding: 8px 25px;
+    }
 }
