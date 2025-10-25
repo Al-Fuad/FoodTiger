@@ -16,9 +16,12 @@ a{
   color: inherit;
 }
 
-.app{
-  width: 80%;
+.app {
+}
+
+.app-upper{
   margin: auto;
+  width: 80%;
 }
 
 @keyframes fadeIn {
