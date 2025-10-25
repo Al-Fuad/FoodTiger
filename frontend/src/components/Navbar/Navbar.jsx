@@ -15,7 +15,7 @@ const Navbar = () => {
       </ul>
       <div className={styles.navbarActions}>
         <img src={assets.search_icon} alt="" />
-        <div className={styles.searchIcon}>
+        <div className={styles.basket_icon}>
 
           <img src={assets.basket_icon} alt="" />
           <div className={styles.dot}></div>

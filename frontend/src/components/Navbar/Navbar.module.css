@@ -7,7 +7,7 @@
 }
 
 .logo {
-    height: 60px;
+    width: 150px;
 }
 
 .navbarMenu {
@@ -22,6 +22,10 @@
     display: flex;
     gap: 20px;
     align-items: center;
+}
+
+.navbarActions img {
+    width: 30px;
 }
 
 .navbarActions button {
@@ -49,7 +53,7 @@
     cursor: pointer;
 }
 
-.searchIcon {
+.basket_icon {
     position: relative;
 }
 
@@ -64,7 +68,7 @@
 }
 
 @media (max-width : 1050px) {
-    .navbar .logo {
+    .logo {
         width: 140px;
     }
 
@@ -73,15 +77,60 @@
         font-size: 17px;
     }
 
-    .navbarRight {
-        gap: 30px;
+    .navbarActions {
+        gap: 15px;
     }
 
-    .navbarRight img {
-        width: 22px;
+    .navbarActions img {
+        width: 25px;
     }
 
-    .navbarRight button {
+    .dot {
+        min-width: 8px;
+        min-height: 8px;
+        top: -7px;
+        right: -7px;
+    }
+
+    .navbarActions button {
+        font-size: 14px;
         padding: 8px 25px;
+    }
+}
+
+@media (max-width : 900px) {
+    .logo {
+        width: 130px;
+    }
+
+    .navbarMenu {
+        gap: 15px;
+        font-size: 16px;
+    }
+    
+    .navbarActions {
+        gap: 10px;
+    }
+
+    .navbarActions img {
+        width: 20px;
+    }
+
+    .dot {
+        min-width: 7px;
+        min-height: 7px;
+        top: -5px;
+        right: -5px;
+    }
+
+    .navbarActions button {
+        font-size: 12px;
+        padding: 6px 20px;
+    }
+}
+
+@media (max-width : 800px) {
+    .navbarMenu {
+        display: none;
     }
 }
