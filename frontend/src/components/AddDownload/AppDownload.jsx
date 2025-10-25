@@ -4,7 +4,7 @@ import React from 'react'
 
 const AppDownload = () => {
   return (
-    <div className={styles.appDownload} id={styles.appDownloadId}>
+    <div className={styles.appDownload} id='app-download'>
       <p>For Better Experience Download <br /> FoodTiger App</p>
       <div className={styles.appDownloadPlatforms}>
         <img src={assets.play_store} alt="" />
